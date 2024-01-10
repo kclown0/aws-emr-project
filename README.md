@@ -7,7 +7,7 @@
 - Airflow를 통해 프로젝트 자동화 진행
 
 ## 프로젝트 기간
-2023.11.09 - 2023.12.15
+2023.11.09 - 2023.12.15 (5주/4인)
 
 ## 아키텍처
 ![image](https://github.com/yeardream-de-project-team11/project-team11/assets/104144701/599d8a4a-4499-4121-a609-efc6966a3728)
