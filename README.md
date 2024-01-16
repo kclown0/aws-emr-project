@@ -20,7 +20,18 @@
 ## Dataset
 H&M data - article(상품), customer(고객), transaction(거래), img(이미지) data로 구분 됨.
 
-
+### 기술 스택
+<div style="text-align: left;">
+   <img src="https://img.shields.io/badge/EC2-007396?style=for-the-badge&logo=S3&logoColor=white">
+  <img src="https://img.shields.io/badge/S3-007396?style=for-the-badge&logo=S3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/EMR-3776AB?style=for-the-badge&logo=EMR&logoColor=white">
+  <img src="https://img.shields.io/badge/Athena-007395?style=for-the-badge&logo=Athena&logoColor=white">
+  <br> <img src="https://img.shields.io/badge/docker-007396?style=for-the-badge&logo=S3&logoColor=white">
+   <img src="https://img.shields.io/badge/Airflow-007396?style=for-the-badge&logo=S3&logoColor=white">
+  <br> <img src="https://img.shields.io/badge/Superset-007396?style=for-the-badge&logo=S3&logoColor=white">
+  <img src="https://img.shields.io/badge/Prometheus-007396?style=for-the-badge&logo=S3&logoColor=white">
+  <img src="https://img.shields.io/badge/Grafana-007396?style=for-the-badge&logo=S3&logoColor=white">
+  </div>
 
 ## 프로젝트 상세 설명
 1. kaggle H&M data 사용, AWS를 활용한 ETL 과정을 구축
@@ -33,17 +44,3 @@ H&M data - article(상품), customer(고객), transaction(거래), img(이미지
 5. ETL 과정을 Airflow를 사용하여 자동화 및 slack 알람 시스템 구축.
 6. Prometheus, Grafana를 사용하여 모니터링 구축.
 
-### 기술 스택
-<div style="text-align: left;">
-   <img src="https://img.shields.io/badge/EC2-007396?style=for-the-badge&logo=S3&logoColor=white">
-  <img src="https://img.shields.io/badge/S3-007396?style=for-the-badge&logo=S3&logoColor=white"> 
-  <img src="https://img.shields.io/badge/EMR-3776AB?style=for-the-badge&logo=EMR&logoColor=white">
-  <img src="https://img.shields.io/badge/Athena-007395?style=for-the-badge&logo=Athena&logoColor=white">
-  <br> <img src="https://img.shields.io/badge/docker-007396?style=for-the-badge&logo=S3&logoColor=white">
-   <img src="https://img.shields.io/badge/Airflow-007396?style=for-the-badge&logo=S3&logoColor=white">
-  <br> <img src="https://img.shields.io/badge/Superset-007396?style=for-the-badge&logo=S3&logoColor=white">
-  <img src="https://img.shields.io/badge/Prometheus-007396?style=for-the-badge&logo=S3&logoColor=white">
-  <img src="https://img.shields.io/badge/Grafana-007396?style=for-the-badge&logo=S3&logoColor=white">
-    
-   
-  </div>
