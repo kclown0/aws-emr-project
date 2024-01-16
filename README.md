@@ -2,8 +2,6 @@
 
 ## 프로젝트 설명
 - AWS 클라우드 환경을 활용해 ETL(추출, 변환, 로드) 전 과정을 구축하는 프로젝트
-- S3(원본데이터) >> EMR(파티셔닝 및 버킷팅, 압축) >> S3(Transform)
-- Athena >> SuperSet 연동 및 시각화 순으로 작업 진행
 - Airflow를 통해 프로젝트 자동화 진행
 
 ## 프로젝트 기간
@@ -23,6 +21,7 @@
 2. 각 data 별로 파티셔닝과 압축을 진행해 S3에 적재.
 3. 파티셔닝과 압축 된 data를 Athena를 사용해 table 생성
 4. superset과 athena를 연동하여 data 시각화 진행
+5. ETL 과정을 Airflow를 사용하여 자동화 진행
 
 ### 기술 스택
 <div style="text-align: left;">
