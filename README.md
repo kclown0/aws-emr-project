@@ -19,6 +19,8 @@
 
 ## Dataset
 H&M data - article(상품), customer(고객), transaction(거래), img(이미지) data로 구분 됨.
+- article, customer, transaction: csv파일로 이루어진 3.5gb의 data
+- img : 31gb의 상품 이미지 data
 
 ### 기술 스택
 <div style="text-align: left;">
