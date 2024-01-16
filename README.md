@@ -10,7 +10,8 @@
 ## 아키텍처
 ![image](https://github.com/yeardream-de-project-team11/project-team11/assets/104144701/599d8a4a-4499-4121-a609-efc6966a3728)
 
-[역할] 
+
+## 역할 
 - 팀장으로서 기업 담당자와의 커뮤니케이션 담당
 - EMR 파티셔닝/압축 단계 customer script 작성
 - Airflow Athean table dag 작성
