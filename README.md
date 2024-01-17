@@ -18,7 +18,7 @@
 - Superset과 Athena 연동 하는 부분을 담당
 
 ## Dataset
-H&M data - 약 2년간의 article(상품), customer(고객), transaction(거래), img(이미지) data로 구분 됨.
+H&M data - 약 2년 간의 article(상품), customer(고객), transaction(거래), img(이미지) data로 구분 됨.
 - image - 각 article_id에 해당하는 이미지 data (31gb)
 - article.csv - 구매 가능한 각 article_id에 대한 상세 메타데이터(0.04gb)
 - customer.csv - 데이터 세트의 각 customer_id에 대한 메타데이터(0.2gb)
