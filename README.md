@@ -7,10 +7,6 @@
 ## 프로젝트 기간
 2023.11.09 - 2023.12.15 (5주/4인)
 
-## 아키텍처
-![image](https://github.com/yeardream-de-project-team11/project-team11/assets/104144701/599d8a4a-4499-4121-a609-efc6966a3728)
-
-
 ## 역할 
 - 팀장으로서 기업 담당자와의 커뮤니케이션 담당
 - EMR 파티셔닝/압축 단계 customer script 작성 [[link]](https://github.com/kclown0/aws-emr-project/blob/main/scripts/emr_parition_customers.py)
@@ -24,6 +20,8 @@ H&M data - 약 2년 간의 article(상품), customer(고객), transaction(거래
 - customer.csv - 데이터 세트의 각 customer_id에 대한 메타데이터(0.2gb)
 - transaction.csv - 각 날짜에 대한 각 고객의 구매 내역과 추가 정보로 구성된 데이터(3.49gb)
 
+## 아키텍처
+![image](https://github.com/yeardream-de-project-team11/project-team11/assets/104144701/599d8a4a-4499-4121-a609-efc6966a3728)
 
 ### 기술 스택
 <div style="text-align: left;">
