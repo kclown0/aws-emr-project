@@ -13,14 +13,17 @@
 
 ## 역할 
 - 팀장으로서 기업 담당자와의 커뮤니케이션 담당
-- EMR 파티셔닝/압축 단계 customer script 작성
-- Airflow Athean table dag 작성
+- EMR 파티셔닝/압축 단계 customer script 작성 [[link]](https://github.com/kclown0/aws-emr-project/blob/main/scripts/emr_parition_customers.py)
+- Airflow Athean table dag 작성 [[link]](https://github.com/kclown0/aws-emr-project/blob/main/airflow/dag/athena_create_table.py)
 - Superset과 Athena 연동 하는 부분을 담당
 
 ## Dataset
-H&M data - article(상품), customer(고객), transaction(거래), img(이미지) data로 구분 됨.
-- article, customer, transaction: csv파일로 이루어진 3.5gb의 data
-- img : 31gb의 상품 이미지 data
+H&M data - 약 2년간의 article(상품), customer(고객), transaction(거래), img(이미지) data로 구분 됨.
+- image - 각 article_id에 해당하는 이미지 data (31gb)
+- article.csv - 구매 가능한 각 article_id에 대한 상세 메타데이터(0.04gb)
+- customer.csv - 데이터 세트의 각 customer_id에 대한 메타데이터(0.2gb)
+- transaction.csv - 각 날짜에 대한 각 고객의 구매 내역과 추가 정보로 구성된 데이터(3.49gb)
+
 
 ### 기술 스택
 <div style="text-align: left;">
@@ -45,4 +48,7 @@ H&M data - article(상품), customer(고객), transaction(거래), img(이미지
 4. Superset(data 시각화툴)과 Athena를 연동하여 data 시각화 진행.
 5. ETL 과정을 Airflow를 사용하여 자동화 및 slack 알람 시스템 구축.
 6. Prometheus, Grafana를 사용하여 모니터링 구축.
+
+## 프로젝트 회고
+- ETL 전반의 과정을 AWS를 통해 구축해볼 수 있었습니다.
 
